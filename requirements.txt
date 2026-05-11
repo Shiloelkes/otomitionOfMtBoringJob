@@ -1,0 +1,5 @@
+pymupdf
+pandas
+pywin32
+pyautogui
+openpyxl
