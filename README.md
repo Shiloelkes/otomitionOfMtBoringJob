@@ -1,6 +1,18 @@
 # Employee Document Automator
 
-A professional Windows-based automation suite for processing multi-page PDF documents and dispatching them to recipients via Email (Outlook) and WhatsApp Web.
+## About This Project
+
+**The Challenge: The Document Distribution Bottleneck**
+Processing and distributing bulk, personalized documents is traditionally a severe administrative bottleneck. When tasked with taking a massive, multi-page PDF, applying a signature to every single page, and routing each specific page to a different recipient, the standard methods quickly become impractical. Executing this physically (printing, signing, scanning, handing out) or even attempting to manually digitize the workflow (stamping, saving, and messaging one by one) is incredibly tedious, highly repetitive, and prone to human error. 
+
+**The Solution: End-to-End Python Automation**
+To solve this, I engineered a Python automation suite that eliminates the friction entirely. This tool transforms hours of manual data entry into an instant, seamless workflow by handling the entire lifecycle of document processing and distribution:
+
+* **Automated Processing:** Ingests the master PDF, auto-applies a designated digital stamp to every page, and splits the master document into individual files.
+* **Intelligent Extraction:** Scans the text of each page to dynamically extract the recipient's name and automatically renames the split files accordingly.
+* **Multi-Channel Dispatch:** Seamlessly interfaces with Microsoft Outlook and WhatsApp Web to automatically route and deliver each personalized document to the correct individual.
+
+By replacing a tedious manual process with a fully automated pipeline, this project ensures rapid, secure, and error-free document distribution at scale.
 
 ## Workflow Overview
 The system operates in a three-step cycle:
